@@ -1,0 +1,17 @@
+#################################################################################################
+## OZKAN EMRE OZDEMIR                                                                           #
+## HOMEWORK 7 : Perform a linear model on the combined jittered headcount and                   #
+## las vegas weather data set. (Lecture 7)                                                      #
+## 05/20/16                                                                                     #
+## Class:  Methods for Data Analysis                                                            #
+##                                                                                              #
+#################################################################################################
+# The linear interpolation of daily aggregated data has the Adjusted R-squared:  0.978
+# which is a good fit.
+# 1st. the total head count of two days before is checked
+# The Adjusted R-squared is increased from 0.978 to 0.9786
+# 2nd. the total averaged temperature of two days before is checked
+# The Adjusted R-squared is further increased from 0.9786 to 0.9789
+# Finally the averaged temperature of 1 week before is checked
+# This time, the R-square value did not improve.
+####################################       End     ##############################################
